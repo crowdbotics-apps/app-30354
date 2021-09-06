@@ -1,13 +1,13 @@
 from rest_framework import authentication
-from dating.models import Setting, Like, UserPhoto, Match, Dislike, Inbox, Profile
+from dating.models import Dislike, Inbox, Like, Match, Profile, Setting, UserPhoto
 from .serializers import (
-    SettingSerializer,
-    LikeSerializer,
-    UserPhotoSerializer,
-    MatchSerializer,
     DislikeSerializer,
     InboxSerializer,
+    LikeSerializer,
+    MatchSerializer,
     ProfileSerializer,
+    SettingSerializer,
+    UserPhotoSerializer,
 )
 from rest_framework import viewsets
 

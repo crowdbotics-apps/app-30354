@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Setting, Like, UserPhoto, Match, Dislike, Inbox, Profile
+from .models import Dislike, Inbox, Like, Match, Profile, Setting, UserPhoto
 
 admin.site.register(Profile)
 admin.site.register(Like)

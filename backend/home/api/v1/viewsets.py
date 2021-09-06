@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from home.models import Message, HomePage, CustomText
-from .serializers import MessageSerializer, HomePageSerializer, CustomTextSerializer
+from home.models import CustomText, HomePage, Message
+from .serializers import CustomTextSerializer, HomePageSerializer, MessageSerializer
 from rest_framework import authentication
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from rest_framework.viewsets import ModelViewSet, ViewSet

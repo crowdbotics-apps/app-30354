@@ -1,13 +1,13 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .viewsets import (
-    SettingViewSet,
-    LikeViewSet,
-    UserPhotoViewSet,
-    MatchViewSet,
     DislikeViewSet,
     InboxViewSet,
+    LikeViewSet,
+    MatchViewSet,
     ProfileViewSet,
+    SettingViewSet,
+    UserPhotoViewSet,
 )
 
 router = DefaultRouter()

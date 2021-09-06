@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from dating.models import Setting, Like, UserPhoto, Match, Dislike, Inbox, Profile
+from dating.models import Dislike, Inbox, Like, Match, Profile, Setting, UserPhoto
 
 
 class ProfileSerializer(serializers.ModelSerializer):
